@@ -1,7 +1,7 @@
 
 "use strict";
 const deliveryCountry = prompt("Please select delivery country");
-const deliveryCountryUpper = deliveryCountry.toUpperCase("");
+const deliveryCountryUpper = deliveryCountry.toUpperCase();
 let cost;
 
 switch (deliveryCountryUpper) {
