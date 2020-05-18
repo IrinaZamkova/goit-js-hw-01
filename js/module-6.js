@@ -8,7 +8,7 @@ do {
     break;
   }
   input = Number(input);
-  total = input + total;
+  total += input;
 } while (true);
 {
   alert(`The total amount is ${total}`);
