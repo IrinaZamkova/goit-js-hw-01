@@ -1,9 +1,12 @@
 
 "use strict";
 const deliveryCountry = prompt("Please select delivery country");
-const deliveryCountryUpper = deliveryCountry.toUpperCase();
-let cost;
 
+let cost;
+if(deliveryCountry===null){
+  console.log("Canceled by user")
+}else{
+const deliveryCountryUpper = deliveryCountry.toUpperCase();
 switch (deliveryCountryUpper) {
   case "CHINA":
     cost = 100;
@@ -30,4 +33,4 @@ switch (deliveryCountryUpper) {
   default:
     alert("Delivery is not available in your country");
     break;
-}
+}}
