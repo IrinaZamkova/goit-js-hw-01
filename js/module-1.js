@@ -1,8 +1,10 @@
 'use strict'
 
 const name = "«Генератор защитного поля»";
-const cost =2000;
-const message=`Выбран ${name}, цена за штуку ${cost} кредитов. `;
+let cost =1000;
 
-console.log(message);
 
+console.log(`Выбран ${name}, цена за штуку ${cost} кредитов. `);
+
+cost =2000;
+console.log(`Выбран ${name}, цена за штуку ${cost} кредитов. `);
