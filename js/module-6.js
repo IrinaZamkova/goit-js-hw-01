@@ -1,15 +1,15 @@
-
 "use strict";
 let total = 0;
+let input;
 do {
   let input = prompt("Please,enter a number");
 
   if (input === null) {
     break;
   }
-  input = Number(input);
-  total += input;
-} while (true);
+  total +=  Number(input) ;
+
+} while (input !== null);
 {
   alert(`The total amount is ${total}`);
 }
