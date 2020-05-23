@@ -5,7 +5,6 @@ if (deliveryCountry === null) {
   console.log("Canceled by user");
 } else {
   switch (deliveryCountry.toUpperCase()) {
-    
     case "CHINA":
       alert(`Delivery in ${deliveryCountry} will cost 100 credits.`);
       break;
