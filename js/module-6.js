@@ -1,5 +1,3 @@
-/** @format */
-
 "use strict";
 let total = 0;
 let input;
